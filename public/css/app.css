@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+#drop-zone {
+	width: 100%;
+	max-width: 300px;
+	height: 70vh;
+	max-height: 300px;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	border: 2px dashed black;
+}
+
+#message {
+	margin-top: 10px;
+}
